@@ -14,12 +14,24 @@ exports.isValidAddress = function(address) {
     return taddrRegex.test(address) || zaddrRegex.test(address)
 }
 
+exports.zatToZec = function(i) {
+    return +(i / 100000000).toFixed(8)
+}
+
+exports.zecToZat = function(f) {
+    return f * 100000000
+}
+
+
+
 // the three above functions are untested
 
-// TODO: sendmany generator
+// TODO: 
+// sendmany generator
 // Lite wallet CLI send generator
 // Burner address generator
 // Memo splitter
+// Price query
 // Block info grabber
 // Zatoshi to ZEC
 // ZEC to Zatoshi

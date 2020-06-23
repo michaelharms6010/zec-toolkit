@@ -1,6 +1,8 @@
 # ZEC Toolkit
 
-zec-toolkit is a bunch of tools I've used developing web apps for Zcash. I'm sick of rewriting them and I also want to share them so hey, here we are.
+zec-toolkit is a bunch of tools I've used developing web apps for Zcash. It's a one-stop shop for address validation, price queries, and block information.
+
+## Installation
 
 You can install zec-toolkit by entering
 
@@ -8,4 +10,15 @@ You can install zec-toolkit by entering
 npm install zec-toolkit
 ```
 
-## TODO: cdn link
+### API's used
+
+### TODO: 
+- [ ] sendmany generator
+- [ ] Lite wallet CLI send generator
+- [ ] Burner address generator
+- [ ] Memo splitter
+- [ ] Price query
+- [ ] Block info grabber
+- [ ] Zatoshi to ZEC
+- [ ] ZEC to Zatoshi
+- [ ] cdn link
