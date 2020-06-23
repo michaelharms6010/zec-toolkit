@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/michaelharms6010/zec-toolkit/issues"
   },
-  "homepage": "https://github.com/michaelharms6010/zec-toolkit#readme"
+  "homepage": "https://github.com/michaelharms6010/zec-toolkit#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }

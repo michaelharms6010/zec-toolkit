@@ -1,5 +1,8 @@
+const { default: Axios } = require("axios");
+
 const zaddrRegex = /^zs[a-z0-9]{76}$/;
 const taddrRegex = /^t1[AC-HJ-NP-Zac-hj-np-z02-9]{33}$/;
+const axios = require("axios")
 
 
 exports.isValidZaddr = function(zaddr) {
@@ -22,9 +25,14 @@ exports.zecToZat = function(f) {
     return f * 100000000
 }
 
-exports.blockInfo = function(block) {
-    // api call for block info
-    // https://api.coingecko.com/api/v3/coins/zcash
+exports.price = async function(currency = "usd") {
+    try {
+        res = await axios.get("https://api.coingecko.com/api/v3/coins/zcash")
+        return +res.data.market_data.current_price[currency].toFixed(2)
+    } catch {
+        console.log("Error accessing price info")
+    }
+    // Should this return a string or a float?
 }
 
 
