@@ -19,6 +19,4 @@ npm install zec-toolkit
 - [ ] Memo splitter
 - [ ] Price query
 - [ ] Block info grabber
-- [ ] Zatoshi to ZEC
-- [ ] ZEC to Zatoshi
 - [ ] cdn link

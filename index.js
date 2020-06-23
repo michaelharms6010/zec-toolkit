@@ -22,6 +22,11 @@ exports.zecToZat = function(f) {
     return f * 100000000
 }
 
+exports.blockInfo = function(block) {
+    // api call for block info
+    // https://api.coingecko.com/api/v3/coins/zcash
+}
+
 
 
 // the three above functions are untested
