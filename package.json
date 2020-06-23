@@ -1,0 +1,23 @@
+{
+  "name": "zec-toolkit",
+  "version": "0.0.1",
+  "description": "Tools for developing web apps with ZEC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelharms6010/zec-toolkit"
+  },
+  "keywords": [
+    "zec",
+    "zcash"
+  ],
+  "author": "Michael Harms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelharms6010/zec-toolkit/issues"
+  },
+  "homepage": "https://github.com/michaelharms6010/zec-toolkit#readme"
+}
