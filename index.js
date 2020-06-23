@@ -28,7 +28,7 @@ exports.zecToZat = function(f) {
 exports.price = async function(currency = "usd") {
     try {
         res = await axios.get("https://api.coingecko.com/api/v3/coins/zcash")
-        return +res.data.market_data.current_price[currency.toLowerCase()].toFixed(2)
+        return +res.data.market_data.current_price[currency.toLowerCase()]
     } catch {
         console.log("Error accessing price info")
     }
