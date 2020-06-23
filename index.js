@@ -13,3 +13,13 @@ exports.isValidTaddr = function(taddr) {
 exports.isValidAddress = function(address) {
     return taddrRegex.test(address) || zaddrRegex.test(address)
 }
+
+// the three above functions are untested
+
+// TODO: sendmany generator
+// Lite wallet CLI send generator
+// Burner address generator
+// Memo splitter
+// Block info grabber
+// Zatoshi to ZEC
+// ZEC to Zatoshi
