@@ -1,6 +1,6 @@
 {
   "name": "zec-toolkit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Tools for developing web apps with ZEC",
   "main": "index.js",
   "scripts": {
