@@ -1,3 +1,5 @@
+// This needs to be refactored to use a proper testing framework
+
 const ZEC = require("./index.js");
 
 console.log(ZEC.zatToZec(10000))
